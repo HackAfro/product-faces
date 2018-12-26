@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 
 import colors from './colors';
 
-const NUM_COL = 2;
 const MILLISECONDS_IN_DAY = 1000 * 60 * 60 * 24;
 
 const getDate = (date) => {
