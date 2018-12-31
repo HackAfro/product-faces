@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { View, Text, StyleSheet } from 'react-native';
 import { Dropdown } from 'react-native-material-dropdown';
-import { SortContext } from './sort.provider';
 
 const Header = ({ onSortValueChanged }) => {
   const data = [
